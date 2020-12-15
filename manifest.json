@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": " Yashvi's Extension",
+    "description": "personalized chrome extension",
+    "version": "1.0.0",
+    "icons": { "128": "logo.png" },
+    "browser_action": {
+        "default_icon": "logo_Y.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
